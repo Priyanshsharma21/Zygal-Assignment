@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Canvas Pixel Data</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main_canvas_box">
+    <div class="wrapper_main">
+        <div class="main_div_mt">
+            <label class="lable_main" htmlFor="letterInput">Enter a letter: </label>
+            <input
+              id="letterInput"
+              type="text"
+              maxlength="1"
+              value="X"
+              class="main_text_inp"
+            />
+          </div>
+          <div class="main_div_mt">
+            <label class="lable_main" htmlFor="textColorPicker">Choose text color: </label>
+            <input
+              id="textColorPicker"
+              type="color"
+              value="#FF0000"
+            />
+          </div>
+          <div class="main_div_mt">
+            <label class="lable_main" htmlFor="bgColorPicker">Choose background color: </label>
+            <input
+              id="bgColorPicker"
+              type="color"
+              value="#FFFFFF"
+            />
+          </div>
+          <div class="main_ctn">
+            <canvas id="canvas" width="16" height="34"></canvas>
+            <button id="downloadButton">Download</button>
+          </div>
+    </div>
+
+    
+  </div>
+
+    <footer>
+    Made my Priyansh Sharma using HTML, CSS, JS. 
+    <a href="" target="_blank">Code Link</a>
+    </footer>
+  <script src="script.js"></script>
+</body>
+</html>
