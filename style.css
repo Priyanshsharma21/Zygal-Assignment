@@ -61,7 +61,12 @@
     background: greenyellow;
     color:black;
     border-radius: 1rem;
+    transition: all 0.1s linear;
     cursor: pointer;
+  }
+
+  button:active{
+    transform: scale(0.9);
   }
   
   .main_canvas_box{
@@ -92,4 +97,10 @@
     text-align: center;
     position: fixed;
     bottom: 0px;
+  }
+
+  .code_link{
+    text-decoration: none;
+    margin-left: 0.5rem;
+    color: red;
   }
