@@ -1,5 +1,8 @@
 # Zygal-Assignment - Font Data
 
+Try app here -  https://zygal-ps-fontdata.netlify.app/
+
+
 Functionality Explanation:
 1. Create a 16x34 px canvas.
 2. Write any character of any font family center of the canvas.
